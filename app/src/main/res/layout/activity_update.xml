@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#272548"
+    >
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/updateimg_btn"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"
+            />
+        <ImageView
+            android:id="@+id/reddelete_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_red_delete"/>
+
+    </RelativeLayout>
+    <EditText
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/editname_txtedt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:hint="enter name"
+        android:textSize="20dp"/>
+    <EditText
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/editphone_txtedt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:hint="enter phone"
+        android:textSize="20dp"/>
+    <Button
+        android:background="@drawable/rounded_add_button"
+        android:id="@+id/update_btn"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Done"
+        />
+
+</LinearLayout>
+
+</ScrollView>

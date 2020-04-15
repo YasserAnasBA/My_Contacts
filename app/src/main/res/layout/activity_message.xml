@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#272548"
+    >
+    <LinearLayout android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MessageActivity"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/smsnumber_txtedt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_edittext"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:hint="Enter Phone Number"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/smsviewmessage_txtvw"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_edittext"
+            android:paddingLeft="10dp"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/smsmessage_txtedt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_edittext"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:hint="Enter Your Message"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/smssend_btn"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_add_button"
+            android:text="Send" android:layout_weight="1"/>
+
+    </LinearLayout>
+</ScrollView>

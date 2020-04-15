@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#272548"
+    >
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:gravity="center"
+    android:layout_gravity="center"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/image_imgbtn"
+    android:layout_gravity="center"
+    android:layout_width="96dp"
+    android:layout_height="96dp"
+    android:src="@drawable/ic_account_circle_black_24dp"
+    app:civ_border_width="2dp"
+    app:civ_border_color="#FF000000"/>
+    <EditText
+        android:id="@+id/name_txtedt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:hint="Enter Name"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/phone_txtedt"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Enter Phone Number"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/create_btn"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_add_button"
+        android:text="Done" />
+</LinearLayout>
+</ScrollView>
